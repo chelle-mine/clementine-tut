@@ -22,6 +22,7 @@ const ajaxFns = {
         });
 
         promise.then((fulfillment) => {
+            console.log('data is here: ' + fulfillment);
             cb(fulfillment);
         });
     }
